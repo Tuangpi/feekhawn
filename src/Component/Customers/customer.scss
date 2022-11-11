@@ -1,0 +1,175 @@
+.tp-card {
+    background-color: rgb(228, 228, 228);
+    min-width: 95%;
+    display: flex;
+    box-shadow: 5px 5px 5px rgb(187, 187, 187);
+    border-radius: 2px 2px 2px 16px;
+    padding: 10px 0 6px 0;
+    margin: 8px 0 7px 0 !important;
+    font-family: "Mukta";
+
+    .tp-card-content {
+        width: 96%;
+        // padding: 0 10px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        .left-content {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .right-content {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            min-width: 5rem;
+
+            .my-paid-button,
+            .my-unpaid-button {
+                border: none;
+                padding: 9px 20px;
+                border-radius: 2px;
+                cursor: pointer;
+                transition: all 0.3s;
+            }
+
+            .my-paid-button {
+                background: linear-gradient(252deg, #38ada2, #0f7670);
+                color: rgb(226, 226, 226);
+            }
+
+            .my-unpaid-button {
+                background: linear-gradient(278deg, #a94949, #9d2222);
+                color: rgb(226, 226, 226);
+            }
+
+            .my-paid-button:hover {
+                background: linear-gradient(62deg, #38ada2, #0f7670);
+                color: rgb(197, 195, 195);
+            }
+
+            .my-unpaid-button:hover {
+                background: linear-gradient(91deg, #a94949, #9d2222);
+                color: rgb(194, 192, 192);
+            }
+        }
+    }
+}
+
+.my-h1 {
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    color: rgb(36, 36, 36);
+    transition: all 0.3s;
+}
+
+.my-h1:hover {
+    color: rgb(100, 100, 100);
+}
+
+.my-h4 {
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.my-h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.submit-btn {
+    margin-top: 5px;
+    border: none;
+    background-color: #0f7670;
+    padding: 15px 0;
+    border-radius: 2px;
+    width: 100%;
+    cursor: pointer;
+    color: rgb(206, 206, 206);
+    font-weight: 500;
+}
+
+.submit-btn:hover {
+    background-color: #277975;
+    color: rgb(172, 172, 172);
+}
+
+.customer-form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+.filter-container {
+    width: 95%;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+
+    .label-search {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 12px;
+        font-weight: 500;
+        color: rgb(143, 143, 143);
+    }
+
+    .btn-filter {
+        margin-top: 8px;
+        display: flex;
+        gap: 10px;
+    }
+}
+
+
+
+.my-paid-filter-btn,
+.my-unpaid-filter-btn {
+    border: none;
+    padding: 8px 18px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 3px rgb(173, 173, 173);
+}
+
+.my-paid-filter-btn {
+    background: linear-gradient(252deg, #38ada2, #0f7670);
+    color: rgb(226, 226, 226);
+}
+
+.my-unpaid-filter-btn {
+    background: linear-gradient(278deg, #a94949, #9d2222);
+    color: rgb(226, 226, 226);
+}
+
+.my-paid-filter-btn:hover {
+    background: linear-gradient(62deg, #38ada2, #0f7670);
+    color: rgb(197, 195, 195);
+}
+
+.my-unpaid-filter-btn:hover {
+    background: linear-gradient(91deg, #a94949, #9d2222);
+    color: rgb(194, 192, 192);
+}
+
+.reset {
+    border: none;
+    padding: 8px 18px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 3px 3px 3px rgb(173, 173, 173);
+}
+.reset:hover{
+    background-color: rgb(211, 211, 211);
+}

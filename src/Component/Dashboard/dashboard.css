@@ -1,0 +1,86 @@
+.Grid__Container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.Stat__Card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 0.5rem rgba(99, 99, 99, 0.15);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Stat__Card_1 {
+    background-image: url(./group_FILL1_wght100_GRAD-25_opsz48.svg), linear-gradient(317deg, #11bfaf, #13625d);
+}
+
+.Stat__Card_2 {
+    background-image: url(./sentiment_satisfied_FILL0_wght300_GRAD0_opsz48.svg), linear-gradient(317deg, #8b9daf, #1968b9);
+}
+
+.Stat__Card_3 {
+    background-image: url(./sentiment_neutral_FILL0_wght300_GRAD0_opsz48.svg), linear-gradient(317deg, #af8b8b, #b91919);
+}
+
+.Stat__Card_4 {
+    background-image: url(./money_off_FILL0_wght300_GRAD0_opsz48.svg), linear-gradient(317deg, #ad78a3, #9d2c6d);
+}
+
+.Stat__Card_5 {
+    background-color: hwb(290 30% 23%);
+}
+
+.Stat__Card_6 {
+    background-image: url(./credit_score_FILL0_wght300_GRAD0_opsz48.svg), linear-gradient(317deg, #3fa186ed, #2b8f00);
+}
+
+.Stat__Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Stat__Title {
+    color: #e3e3e3;
+}
+
+.Stat__Content {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+
+@media (min-width: 768px) {
+    .Grid__Container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.card {
+    width: 95%;
+    margin: auto;
+}
+
+.dash-board-title {
+    margin-top: 3rem;
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.dash-board {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.rs{
+    font-size: 15px;
+    color: #d3d3d3;
+}
